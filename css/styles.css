@@ -265,7 +265,8 @@ background-color: var(--btn);
 }
 .modal-form-messages{
   display: block;
-  padding-top: 8px;
+  padding: 8px 16px;
+  font-size: 12px;
   max-height: 120px;
   height: 120px;
   width: 100%;
@@ -275,6 +276,7 @@ background-color: var(--btn);
   outline-offset: -2px;
   transition: var(--anim-fast);
   margin-bottom: 16px;
+  resize: none;
 }
 .modal-form-messages:focus{
 outline-color: var(--brend);
@@ -289,7 +291,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 gap: 8px;
-
+margin-bottom: 24px;
 }
 .modal-form-agreement-box{
 appearance: none;
@@ -791,7 +793,7 @@ margin-left: 80px;
 .input-subscribe{
   width: 264px;
     height: 40px;
-    padding: 16px;
+    padding-left: 16px;
     background-color: var(--dark);
     color: var(--white);
     border: 1px solid var(--white);
@@ -803,7 +805,6 @@ margin-left: 80px;
 .input-subscribe::placeholder{
   font-family: 'Roboto';
     font-style: normal;
-  padding: 0 0 0 16px;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
